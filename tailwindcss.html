@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <link rel="shortcut icon" href="tailwind-logo.png" height="20px" type="image/x-icon">
+    <style>
+        *{
+            margin: auto;
+        }
+        .header-cls{
+            padding: 20px 15px 0px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        ul{
+            display: flex;
+            gap: 30px;
+            list-style-type: none;
+            margin-right: 30px;
+        }
+        li a{
+            color: rgb(0, 0, 32);
+            text-decoration: none;
+        }
+        .cont{
+            margin: auto;
+            text-align: center;
+        }
+        .cont h1{
+            font-family: sans-serif ;
+            margin: 100px 350px 20px;
+            color: rgb(0, 0, 34);
+            font-size: 60px;
+            font-weight: 700;
+            letter-spacing: -4px;
+        }
+        span{
+            color: rgb(52, 170, 170);
+        }
+        p{
+            margin: 20px 420px;
+            font-size: 1.3rem;
+            color: rgb(73, 73, 93);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        button{
+            border: none;
+            background-color: rgb(0, 0, 40);
+            color: white;
+            font-weight: bold;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 10px;
+        }
+        input[type="search"]{
+            width: 300px;
+            border-radius: 10px;
+            border: 2px solid rgb(179, 179, 194);
+            cursor: pointer;
+            background-image: url('search_icon.png');
+            background-position: 10px 10px; 
+            background-repeat: no-repeat;
+            background-size: 20px 20px;
+            padding: 14px 20px 14px 40px;
+        }
+        .logo img{
+            width: 35px;
+            height: 20px;
+            margin-right: 10px;
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            margin: 10px;
+        }
+        h2{
+            color: rgb(0, 0, 56);
+        }
+        .bg-col{
+            background-color: rgb(213, 213, 214);
+            width: 100vw;
+            height: 100vh;
+        }
+        li a:hover{
+            color: rgb(1, 184, 184);
+        }
+        .git-icon{
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-col">
+        <header>
+            <div class="header-cls">
+                <div class="logo">
+                    <img src="tailwind-logo.png" alt="logo">
+                    <h2>tailwindcss</h2>
+                </div>
+                <ul>
+                    <li><a href="">Docs</a></li>
+                    <li><a href="">Components</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Showcase</a></li>
+                    <li><a href=""><img src="github_icon.png" alt="" class="git-icon"></a></li>
+                </ul>
+            </div>
+            <div class="cont">
+                <h1>Rapidly build modern websites without ever leaving your HTML.</h1>
+                <p>A utility-first CSS framework packed with classes like <span>flex</span>, <span>pt-4</span>, <span>text-center</span> and <span>rotate-90</span> that can be composed to build any design, directly in your markup.</p>
+                <button>Get started</button>
+                <input type="search" name="" placeholder="Quick search...">
+            </div>
+        </header>
+    </div>
+    
+    <!-- <section>
+
+    </section> -->
+</body>
+</html>
